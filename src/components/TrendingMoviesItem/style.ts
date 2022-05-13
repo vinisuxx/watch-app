@@ -49,6 +49,9 @@ export const Container = styled.div`
 
         .movie-backdrop img {
             opacity: 0.5;
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
         }
     }
 
@@ -69,7 +72,7 @@ export const Container = styled.div`
         }  
         img {
             display: block;
-            transition: opacity 0.2s linear;
+            transition: all 0.3s linear;
         }
     }
 `
